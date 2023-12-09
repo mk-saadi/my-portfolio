@@ -4,9 +4,9 @@ import NavBar from "./homeComponent/NavBar";
 
 const Home = () => {
 	return (
-		<div className="bg-[#fdc270] p-2 md:p-4 h-screen flex justify-center items-center noise1 overflow-hidden max-w-[1440px] mx-auto">
-			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 bg-black inner-box md:h-[96vh] h-[99vh] w-[99vw] md:w-[98vw] overflow-auto lg:overflow-hidden">
-				<div className="col-span-1">
+		<div className="h-screen flex justify-center items-center noise1 overflow-hidden max-w-[1440px] mx-auto">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 bg-black p-4 pr-0 pb-0 h-[100vh] w-[100vw] overflow-auto lg:overflow-hidden">
+				<div className="col-span-1 storyModal">
 					<FirstDiv />
 				</div>
 

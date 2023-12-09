@@ -25,6 +25,14 @@ body {
 	background-color: #cc974d;
 }
 
+/* hide scroll bar */
+.storyModal::-webkit-scrollbar {
+	overflow-y: auto;
+	display: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
 ul li {
 	list-style: inside; /* Change this to your desired bullet point style */
 }

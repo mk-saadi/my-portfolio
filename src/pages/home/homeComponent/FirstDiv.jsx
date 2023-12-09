@@ -1,8 +1,10 @@
 import mkSaadi from "../../../assets/mk-saadi.jpg";
 import { FaSquareFacebook } from "react-icons/fa6";
 import Button from "../../../reuse/Button";
-import { FaGithubSquare } from "react-icons/fa";
+import { ImGithub } from "react-icons/im";
 import { GrLinkedin } from "react-icons/gr";
+import pdf from "../../../assets/Resume of Muhiuddin Khaled.pdf";
+import { FaDownload } from "react-icons/fa";
 
 const FirstDiv = () => {
 	return (
@@ -12,29 +14,39 @@ const FirstDiv = () => {
 					<img
 						src={mkSaadi}
 						alt=""
-						className="duration-200 md:h-56 lg:h-72 sepia hover:sepia-0"
+						className="h-48 duration-200 md:h-56 lg:h-72 sepia hover:sepia-0"
 					/>
 				</div>
-				<h1 className="mt-2 text-xl font-bold md:text-3xl">
+				<h1 className="mt-2 text-xl font-bold text-center md:text-3xl md:text-start">
 					Muhiuddin Khaled <span className="opacity-70">Saadi</span>
 				</h1>
 				<p className="text-sm font-semibold md:text-base">
 					WEB DEVELOPER
 				</p>
-				<p className="text-sm md:text-base">
-					👨‍💻 Junior React Developer | HTML, CSS, JavaScript, React 🚀
-					Crafting interactive and responsive web experiences. 📚
-					Continuous learner, exploring React
+				<p className="text-xs text-center md:text-base">
+					MERN stack Developer
+					<br />
+					HTML, CSS, JavaScript, React
+					<br />
+					Crafting interactive and responsive web experiences.
 				</p>
 			</div>
 
 			<div className="flex items-center justify-center gap-3 mt-3 md:mt-5 md:mb-8 lg:mb-0">
+				<a
+					href={pdf}
+					download="resume.pdf"
+				>
+					<button className="flex items-center justify-center gap-3 mr-6 text-xl navLink">
+						Resume
+					</button>
+				</a>
 				<Button>
 					<a
 						href="https://github.com/mk-saadi"
 						target="_blank"
 					>
-						<FaGithubSquare className="text-2xl" />
+						<ImGithub className="text-2xl" />
 					</a>
 				</Button>
 				<Button>
