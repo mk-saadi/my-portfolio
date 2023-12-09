@@ -12,7 +12,7 @@ const FirstDiv = () => {
 					<img
 						src={mkSaadi}
 						alt=""
-						className="md:h-56 lg:h-72 sepia-[2]"
+						className="duration-200 md:h-56 lg:h-72 sepia hover:sepia-0"
 					/>
 				</div>
 				<h1 className="mt-2 text-xl font-bold md:text-3xl">

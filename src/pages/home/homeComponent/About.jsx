@@ -12,7 +12,7 @@ const About = () => {
 					functional requirements but also provide a delightful user
 					experience.
 				</p>
-				<p className="mt-2">
+				<p className="mt-2 text-sm md:text-base">
 					Take a look at my portfolio to explore some of my projects
 					and see the potential we have to create something
 					extraordinary!

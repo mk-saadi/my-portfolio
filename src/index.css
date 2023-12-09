@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*::selection {
+	color: black;
+	background-color: #fdc270;
+}
+
 body {
 	scroll-behavior: smooth;
+	font-family: "Fira Code", monospace;
 }
 
 ::-webkit-scrollbar {
@@ -28,8 +34,8 @@ ul li {
 		3px 3px 0px 0px #c31b25, 4px 4px 0px 0px #c31b25,
 		5px 5px 0px 0px #c31b25;
 	border: 5px solid #c31b25;
-	padding: 1rem;
-	padding-right: 0rem;
+	padding: 1rem 1rem 0rem;
+	/* padding-right: 0rem; */
 }
 
 .inner-box1 {

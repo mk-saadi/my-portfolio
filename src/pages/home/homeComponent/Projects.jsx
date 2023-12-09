@@ -41,7 +41,7 @@ const Projects = () => {
 					<img
 						src={pr.screenShot}
 						alt="project screenShot"
-						className="object-cover duration-200 cursor-pointer h-60 sepia hover:sepia-0 w-fit"
+						className="object-cover duration-200 cursor-pointer h-60 sepia hover:sepia-0 w-fit brightness-75 hover:brightness-100"
 						onClick={() => window.open(pr.liveWebsite, "_blank")}
 					/>
 
